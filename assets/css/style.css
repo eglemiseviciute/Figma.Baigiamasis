@@ -7,6 +7,16 @@
     font-weight: bold;
     font-size: 15px;
 }
+.laikas{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.stat1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
 .navbar-toggler{
     background-color: #505253;
 }
@@ -19,7 +29,13 @@
     padding-bottom: 200px;
 }
 
-
+.abutton31{
+    font-family: 'Poppins', sans-serif;
+    font-size: large; 
+}
+.abutton31:hover{
+    color: #c58585;
+}
 
 
 .abutton {
@@ -106,7 +122,7 @@ nav{
 .varnelet,
 .a,
 .b,.price7,.price8,.price9{
-    display: inline-block;
+    display: inline-block!important;
 }
 
 .parasas {
@@ -445,7 +461,7 @@ ul.navbar-nav.ms-auto li a {
     color: white;
 }
 ul.navbar-nav.ms-auto li a:hover {
-    color: #d8d8d8;
+    color: #d68a8a;
 }
 .mnew{
     background-color: #F8F8F8;
@@ -944,23 +960,56 @@ border-style:1px solid;
 
 
 @media screen and (min-width: 320px) {
+    .laikas{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        
+    }
+    .stat{
+        margin-top: 50px;
+    }
+    .stat1{
+        margin-top: 100px;
+        
+        font-size: 22px;
+        
+    }
+    
+    .sedi {
+        width: 400px!important;
+        height: 200px;
+    }
+    .kalbasi{
+        width: 300px!important;
+        height: 200px;
+    }
+    .priceplans1{
+        font-size: 18px!important;
+    }
     .business {
-        font-size: 50px!important;
+        font-size: 44px!important;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
     }
+    .business1 {
+        font-size: 44px!important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
     .wp-block-latest-posts.wp-block-latest-posts__list {
         list-style: none;
         padding-left: 0;
         background-color: white;
-        width: 90px;
+        width: 70px;
         padding-top: 10px;
         padding-left: 5px;
         padding-bottom: 10px;;
     }
     .wp-block-tag-cloud{
         background-color: #ffffff;
-        width: 90px;
+        width: 70px;
         padding-top: 10px;
         padding-left: 5px;
         padding-bottom: 10px;
@@ -995,7 +1044,7 @@ border-style:1px solid;
     }
     article{
         background-color: #ffffff;
-        width: 80px;
+        width: 70px;
         justify-content: center;
         padding-left: 10px;
         margin-left: 10px;
@@ -1018,6 +1067,7 @@ border-style:1px solid;
     }
     .has-dates .wp-block-latest-comments__comment, .has-excerpts .wp-block-latest-comments__comment{
         margin-right: 40px;
+
         /* background-color: #ffffff; */
         padding-bottom: 5px
     }
@@ -1034,7 +1084,12 @@ border-style:1px solid;
         display: flex;
         flex-wrap: wrap;
         height:90px;   
-        width: 250px;
+        width: 240px;
+       }
+       .business1{
+        font-size: 50px!important; ;
+        font-family: 'Poppins', sans-serif;
+     font-weight: bold;
        }
        .comment-form-author,
        .comment-form-email { float:inline-start
@@ -1058,12 +1113,28 @@ border-style:1px solid;
 
 
 
-
   @media screen and (min-width: 375px) {
+    .laikas{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        
+    }
 /* cia archyvo side baras */
 /* sutvarkyta */
+.newst{
+    font-size: 80px!important;
+}
+.sedi {
+    width: 500px!important;
+    height: 250px;
+}
+.kalbasi{
+    width: 350px!important;
+    height: 250px;
+}
 .business {
-    font-size: 58px!important;
+    font-size: 54px!important;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
@@ -1071,7 +1142,7 @@ border-style:1px solid;
     list-style: none;
     padding-left: 0;
     background-color: white;
-    width: 95px;
+    width: 85px;
     padding-top: 10px;
     padding-left: 5px;
     padding-bottom: 10px;;
@@ -1105,9 +1176,14 @@ border-style:1px solid;
   }
 
   div.wp-block-search__inside-wrapper{
-      width: 100px!important;
+      width: 90px!important;
       margin-right: 5px!important;
       margin-top: 50px;
+  }
+  .business1{
+    font-size:60px!important ;
+    font-family: 'Poppins', sans-serif;
+ font-weight: bold;
   }
   .new-title{
       font-size: 20px;
@@ -1118,7 +1194,7 @@ border-style:1px solid;
 
   .wp-block-tag-cloud{
     background-color: #ffffff;
-    width: 95px;
+    width: 85px;
     padding-top: 10px;
     padding-left: 5px;
     padding-bottom: 10px;
@@ -1126,7 +1202,7 @@ border-style:1px solid;
 }
 article{
     background-color: #ffffff;
-    width: 90px;
+    width: 80px;
     justify-content: center;
     padding-left: 10px;
     margin-left: 10px;
@@ -1161,7 +1237,7 @@ article{
     padding-bottom: 10px
 }
 .side h2{
-   font-size:18px ;
+   font-size:17px ;
    font-family: 'Poppins', sans-serif;
 font-weight: bold;
 padding-top: 30px;
@@ -1188,16 +1264,173 @@ padding-left: 29px; */
 .top1{
     padding-right: 100px;
 }
+.priceplans1{
+    font-size: 20px!important;
+}
   }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 440px) {
+  .kalbasi{
+    width: 450px!important;
+    height: 300px;
+}}
+  @media screen and (min-width: 550px) {
+      
+    .sedi {
+        width: 500px!important;
+        height: 300px;
+    }
+    .kalbasi{
+        width: 500px!important;
+        height: 300px;
+    }
     /* cia archyvo side baras */
     /* sutvarkyta */
+    .priceplans1{
+        font-size: 16px!important;
+    }
+    .business,  .business1,.newst {
+        font-size: 80px!important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+  
+    .wp-block-latest-posts.wp-block-latest-posts__list {
+        list-style: none;
+        padding-left: 0;
+        background-color: white;
+        width: 110px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+    }
+        /* single puslapio sidebaras */
+        .wp-block-tag-cloud a {
+            background-color: #030303;
+            border-radius: 5px;
+            color: #ffffff;
+            padding-left:  5px;
+            padding-right: 5px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+           
+        }
+        .wp-block-latest-posts.wp-block-latest-posts__list li {
+      padding-bottom: 15px;
+    }
+    .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper{
+      padding: 0px;
+    }
+      .wp-block-search__button{
+      margin-left: 0rem;
+      border: none;
+      width: 1px;
+      opacity: 1;
+    }
+      .wp-block-search__button{
+          
+          padding-right: 25px!important;
+      }
+    
+      div.wp-block-search__inside-wrapper{
+          width: 110px!important;
+          margin-left: 5px;
+          margin-top: 50px;
+      }
+      .new-title{
+          font-size: 20px;
+      }
+      .single-post{
+          font-size: 30px;
+      }
+    
+      .wp-block-tag-cloud{
+        background-color: #ffffff;
+        width: 110px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        
+    }
+    article{
+        background-color: #ffffff;
+        width: 90px;
+        justify-content: center;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    .wp-block-latest-comments .avatar, .wp-block-latest-comments__comment-avatar{
+        margin-left: 10px;
+    }
+    .wp-block-latest-comments .avatar, .wp-block-latest-comments__comment-avatar{
+        float: none;
+    }
+    
+    .has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-excerpt, .has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta{
+        margin-left: 0rem;
+        
+    }
+    .wp-block-latest-comments__comment-meta{
+        background-color: #ffffff;  
+        
+    }
+    /* .wp-block-latest-comments .avatar, .wp-block-latest-comments__comment-avatar {
+        
+        display: block;
+        float: left;
+        height: 50px;
+        margin-right: 0.75em;
+        width: 50px;
+    } */
+    .has-dates .wp-block-latest-comments__comment, .has-excerpts .wp-block-latest-comments__comment{
+        margin-left: 10px;
+        padding-right: -5px;
+        background-color: #ffffff;
+        padding-bottom: 10px;
+        width: 110px;
+    }
+    .side h2{
+       font-size:18px ;
+       font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: #030303;
+    /* background-color: white;
+    padding-right: 29px;
+    padding-left: 29px; */
+    }
+    .comment-form-comment textarea{
+        display: flex;
+        flex-wrap: wrap;
+        height:90px;   
+        width: 250px;
+       }
+       .comment-form-author,
+       .comment-form-email { float:inline-start
+          
+       }
+       .comment-form-author input,.comment-form-email input,.comment-form-url input {
+        width: 250px;
+    }
+    .top1{
+        padding-right: 100px;
+    }
+      }
+
+      
+@media screen and (min-width: 600px) {
+    /* cia archyvo side baras */
+    /* sutvarkyta */
+    
     .business {
         font-size: 68px!important;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
     }
-    .wp-block-latest-posts.wp-block-latest-posts__list {
+    /* .wp-block-latest-posts.wp-block-latest-posts__list {
         list-style: none;
         padding-left: 0;
         background-color: white;
@@ -1206,7 +1439,7 @@ padding-left: 29px; */
         padding-left: 5px;
         padding-bottom: 10px;
         margin-left: 30px;
-    }
+    } */
         /* single puslapio sidebaras */
         .wp-block-tag-cloud a {
             background-color: #030303;
@@ -1247,7 +1480,7 @@ padding-left: 29px; */
           font-size: 30px;
       }
     
-      .wp-block-tag-cloud{
+      /* .wp-block-tag-cloud{
         background-color: #ffffff;
         width: 150px;
         padding-top: 10px;
@@ -1255,14 +1488,14 @@ padding-left: 29px; */
         padding-bottom: 10px;
         margin-left: 30px;
         
-    }
-    article{
+    } */
+    /* article{
         background-color: #ffffff;
         width: 90px;
         justify-content: center;
         padding-left: 10px;
         margin-left: 10px;
-    }
+    } */
     .wp-block-latest-comments .avatar, .wp-block-latest-comments__comment-avatar{
         margin-left: 10px;
     }
@@ -1323,9 +1556,175 @@ padding-left: 29px; */
     }
       }
 
-  @media screen and (min-width: 800px){
+  @media screen and (min-width: 600px) {
+    .sedi {
+        width: 550px!important;
+        height: 300px;
+    }
+    .kalbasi{
+        width: 650px!important;
+        height: 300px;
+    }
+    /* cia archyvo side baras */
+    /* sutvarkyta */
     .business {
-        font-size: 70px!important;
+        font-size: 68px!important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    .business1{
+        font-size: 88px!important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    .wp-block-latest-posts.wp-block-latest-posts__list {
+        list-style: none;
+        padding-left: 0;
+        background-color: white;
+        width: 130px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        margin-left: 30px;
+    }
+        /* single puslapio sidebaras */
+        .wp-block-tag-cloud a {
+            background-color: #030303;
+            border-radius: 5px;
+            color: #ffffff;
+            padding-left:  5px;
+            padding-right: 5px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+           
+        }
+        .wp-block-latest-posts.wp-block-latest-posts__list li {
+      padding-bottom: 15px;
+    }
+    .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper{
+      padding: 0px;
+    }
+      .wp-block-search__button{
+      margin-left: 0rem;
+      border: none;
+      width: 1px;
+      opacity: 1;
+    }
+      .wp-block-search__button{
+          
+          padding-right: 25px!important;
+      }
+    
+      div.wp-block-search__inside-wrapper{
+          width: 150px!important;
+          margin-left: 30px;
+          margin-top: 50px;
+      }
+      .new-title{
+          font-size: 20px;
+      }
+      .single-post{
+          font-size: 30px;
+      }
+    
+      .wp-block-tag-cloud{
+        background-color: #ffffff;
+        width: 130px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        margin-left: 30px;
+        
+    }
+    article{
+        background-color: #ffffff;
+        width: 100px;
+        justify-content: center;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    .wp-block-latest-comments .avatar, .wp-block-latest-comments__comment-avatar{
+        margin-left: 10px;
+    }
+    .wp-block-latest-comments .avatar, .wp-block-latest-comments__comment-avatar{
+        float: none;
+    }
+    
+    .has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-excerpt, .has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta{
+        margin-left: 0rem;
+        
+    }
+    .wp-block-latest-comments__comment-meta{
+        background-color: #ffffff;  
+        
+    }
+    /* .wp-block-latest-comments .avatar, .wp-block-latest-comments__comment-avatar {
+        
+        display: block;
+        float: left;
+        height: 50px;
+        margin-right: 0.75em;
+        width: 50px;
+    } */
+    .has-dates .wp-block-latest-comments__comment, .has-excerpts .wp-block-latest-comments__comment{
+        margin-right: 15px;
+        padding-right: -5px;
+        background-color: #ffffff;
+        padding-bottom: 10px;
+        width: 130px;
+    }
+    .side h2{
+       font-size:18px ;
+       font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: #030303;
+    /* background-color: white;
+    padding-right: 29px;
+    padding-left: 29px; */
+    }
+    .comment-form-comment textarea{
+        display: flex;
+        flex-wrap: wrap;
+        height:90px;   
+        width: 250px;
+       }
+       .comment-form-author,
+       .comment-form-email { float:inline-start
+          
+       }
+       .comment-form-author input,.comment-form-email input,.comment-form-url input {
+        width: 250px;
+    }
+    .top1{
+        padding-right: 100px;
+    }
+      }
+
+  @media screen and (min-width: 800px){
+    .newst{
+        font-size: 100px!important;
+    }
+    .sedi {
+        width: 800px!important;
+        height: 500px;
+    }
+    .kalbasi{
+        width: 800px!important;
+        height: 600px;
+    }
+    .priceplans1{
+        font-size: 22px!important;
+    }
+    .business{
+        font-size:90px!important;
+        font-family: 'Poppins', sans-serif;
+     font-weight: bold;
+      }
+      .business1{
+        font-size: 90px!important;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
     }
@@ -1423,7 +1822,167 @@ padding-left: 29px; */
 }
   }
 
-  @media screen and (min-width: 760px) {
+
+
+  @media screen and (min-width: 670px) {
+    .sedi {
+        width: 600px!important;
+        height: 400px;
+    }
+    .kalbasi{
+        width: 600px!important;
+        height: 400px;
+    }
+
+  div.wp-block-search__inside-wrapper{
+      width: 180px!important;
+      margin-left: 50px!important;
+  }
+  
+
+  .wp-block-tag-cloud{
+    background-color: #ffffff;
+    width: 180px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-left: 60px;
+    
+}
+article{
+    background-color: #ffffff;
+    width: 160px;
+    justify-content: center;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+
+
+.wp-block-latest-comments__comment-meta{
+    background-color: #ffffff;  
+    
+}
+/* .wp-block-latest-comments .avatar, .wp-block-latest-comments__comment-avatar {
+    
+    display: block;
+    float: left;
+    height: 50px;
+    margin-right: 0.75em;
+    width: 50px;
+} */
+.has-dates .wp-block-latest-comments__comment, .has-excerpts .wp-block-latest-comments__comment{
+    margin-left: 30px;
+    padding-right: -5px;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+    width: 190px;
+}
+.side h2{
+   font-size:25px ;
+   font-family: 'Poppins', sans-serif;
+font-weight: bold;
+padding-top: 30px;
+padding-bottom: 15px;
+border-bottom-style: solid;
+border-bottom-color: #030303;
+/* background-color: white;
+padding-right: 29px;
+padding-left: 29px; */
+}
+.wp-block-latest-posts.wp-block-latest-posts__list {
+    list-style: none;
+    padding-left: 0;
+    background-color: white;
+    width: 190px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+}
+.comment-form-comment textarea{
+    display: flex;
+    flex-wrap: wrap;
+    height:90px;   
+    width: 250px;
+   }
+   .comment-form-author,
+   .comment-form-email { float:inline-start
+      
+   }
+     .single-post{
+       font-size: 40px;
+   }
+   .new-title{
+       font-size: 30px;
+   }
+   .comment-form-comment textarea{
+    display: flex;
+    flex-wrap: wrap;
+    height:90px;   
+    width: 250px;
+   }
+   .comment-form-author,
+   .comment-form-email { float:inline-start
+      
+   }
+   .top1{
+    background-color: #F8F8F8;
+    
+    margin-right: 100px;
+}
+.comment-form-comment textarea{
+    display: flex;
+    flex-wrap: wrap;
+    height:100px;   
+    width: 400px;
+   }
+   .comment-form-author input,.comment-form-email input,.comment-form-url input {
+       width: 400px;
+   }
+   .comment-form-author,
+   .comment-form-email { float:inline-start
+      
+   }
+   .newst{
+       font-size: 70px;
+   }
+   .business,.business1{
+    font-size:80px!important;
+    font-family: 'Poppins', sans-serif;
+ font-weight: bold;
+  }
+  }
+  @media screen and (min-width: 768px) {
+ .stat{
+        margin-top: 100px;
+    }
+    .stat1{
+        margin-top: 150px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        
+    }}
+  @media screen and (min-width: 750px) {
+    .sedi {
+        width: 700px!important;
+        height: 500px;
+    }
+    .kalbasi{
+        width: 600px!important;
+        height: 400px;
+    }
+      .business{
+        font-size:85px!important;
+        font-family: 'Poppins', sans-serif;
+     font-weight: bold;
+      }
+      .business1{
+        font-size: 98px!important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
     .wp-block-tag-cloud a {
         background-color: #030303;
         border-radius: 5px;
@@ -1459,7 +2018,7 @@ padding-left: 29px; */
 
   .wp-block-tag-cloud{
     background-color: #ffffff;
-    width: 190px;
+    width: 180px;
     padding-top: 10px;
     padding-left: 5px;
     padding-bottom: 10px;
@@ -1468,7 +2027,7 @@ padding-left: 29px; */
 }
 article{
     background-color: #ffffff;
-    width: 180px;
+    width: 170px;
     justify-content: center;
     padding-left: 10px;
     margin-left: 10px;
@@ -1497,10 +2056,11 @@ article{
     width: 50px;
 } */
 .has-dates .wp-block-latest-comments__comment, .has-excerpts .wp-block-latest-comments__comment{
-    margin-left: 20px;
+    margin-right: 40px;
     padding-right: -5px;
     background-color: #ffffff;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    width: 180px;
 }
 .side h2{
    font-size:30px ;
@@ -1518,7 +2078,7 @@ padding-left: 29px; */
     list-style: none;
     padding-left: 0;
     background-color: white;
-    width: 190px;
+    width: 180px;
     padding-top: 10px;
     padding-left: 5px;
     padding-bottom: 10px;
@@ -1575,7 +2135,29 @@ padding-left: 29px; */
   
 /* sutvarkyta */
 @media screen and (min-width: 900px){
-    .business {
+    .laikas{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        
+    }
+    .stat1{
+        margin-top: 150px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        
+    }
+    .sedi {
+        width: 1000px!important;
+        height: 500px;
+    }
+    .kalbasi{
+        width: 800px!important;
+        height: 500px;
+    }
+
+    .business,.business1 {
         font-size: 78px!important;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
@@ -1620,7 +2202,7 @@ padding-left: 29px; */
     padding-top: 10px;
     padding-left: 5px;
     padding-bottom: 10px;
-    margin-left: 60px;
+    margin-left: 80px;
     }
     article{
         background-color: #ffffff;
@@ -1645,8 +2227,8 @@ padding-left: 29px; */
         
     }
     .has-dates .wp-block-latest-comments__comment, .has-excerpts .wp-block-latest-comments__comment{
-        margin-left: 60px;
-        width: 250px;
+        margin-left: 105px;
+        width: 240px;
         /* background-color: #ffffff; */
         padding-bottom: 10px
     }
@@ -1697,8 +2279,12 @@ padding-left: 29px; */
     
   } 
 
-  @media screen and (min-width: 1000px) {
-    .business {
+  @media screen and (min-width: 990px) {
+    .priceplans1{
+        font-size: 22px!important;
+    }
+      
+    .business,.business1 {
         font-size: 90px!important;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
@@ -1707,11 +2293,11 @@ padding-left: 29px; */
         list-style: none;
         padding-left: 0;
         background-color: white;
-        width: 240px;
+        width: 220px;
         padding-top: 10px;
         padding-left: 5px;
         padding-bottom: 10px;
-        margin-left: 25px;
+        margin-left: 10px!important;
     }
   
        .wp-block-latest-posts.wp-block-latest-posts__list li {
@@ -1733,8 +2319,8 @@ padding-left: 29px; */
     }
   
     div.wp-block-search__inside-wrapper{
-        width: 230px!important;
-        margin-left: 30px!important;
+        width: 240px!important;
+        margin-left: 15px!important;
         margin-top: 50px;
     }
     .wp-block-tag-cloud{
@@ -1743,11 +2329,11 @@ padding-left: 29px; */
     padding-top: 10px;
     padding-left: 5px;
     padding-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
     }
     article{
         background-color: #ffffff;
-        width: 220px;
+        width: 210px;
         justify-content: center;
         padding-left: 10px;
         margin-left: 15px;
@@ -1768,9 +2354,9 @@ padding-left: 29px; */
         
     }
     .has-dates .wp-block-latest-comments__comment, .has-excerpts .wp-block-latest-comments__comment{
-        margin-left: 15px;
-        /* background-color: #ffffff; */
-        padding-bottom: 10px
+        margin-left: 35px;
+        padding-bottom: 10px;
+        width: 230px;
     }
    .side h2{
        font-size:30px ;
@@ -1816,11 +2402,20 @@ padding-left: 29px; */
    .newst{
        font-size: 70px;
    }
+   .stat{
+    margin-top: 100px;
+}
+.stat1{
+    margin-top: 160px;
+    font-size: 30px;
+    
+}
     
   } 
-
-
-
+  @media screen and (min-width: 1000px) {
+  .priceplans1{
+    font-size: 14px!important;
+}}
 
 /* sutvarkyta */
   @media screen and (min-width: 1200px) {
@@ -1828,11 +2423,16 @@ padding-left: 29px; */
         list-style: none;
         padding-left: 0;
         background-color: white;
-        width: 310px;
+        width: 320px;
         padding-top: 10px;
         padding-left: 20px;
         padding-bottom: 10px;
-        margin-left: 85px;
+        margin-left: 70px!important;
+    }
+    .newst{
+        font-size:110px!important ;
+       font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     }
     ol.wp-block-latest-comments {
         margin-left: -20px;
@@ -1856,18 +2456,18 @@ padding-left: 29px; */
     }
   
     div.wp-block-search__inside-wrapper{
-        width: 310px!important;
-        margin-left: 65px!important;
+        width: 320px!important;
+        margin-left: 70px!important;
         border-radius: 1px;
         margin-top: 100px;
     }
     .wp-block-tag-cloud{
         background-color: #ffffff;
-        width: 310px;
+        width: 320px;
     padding-top: 10px;
     padding-left: 15px;
     padding-bottom: 10px;
-    margin-left: 85px;
+    margin-left: 75px;
     }
     article{
         background-color: #ffffff;
@@ -1923,13 +2523,56 @@ padding-left: 29px; */
    .top1{
     background-color: #F8F8F8;
     padding-top: -300px;
-    margin-right: 300px;
+    margin-right: 50px;
+}
+.business,.business1{
+    font-size:100px!important ;
+       font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#submit {
+    background-color: #9aa19c;
+    border-radius: 5px;
+    border: 1px solid #9ca19c;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+#submit:hover{
+    color: #d68a8a;
+}
+
+.com{
+    margin-top: 50px;
+}
+.savybes{
+    font-size:17px!important;
+}
+.sedi,.kalbasi {
+    width: 1800px!important;
+    height: 600px;
+}
+.laikas{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.stat{
+    margin-top: 100px;
+}
+.stat1{
+    margin-top: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    
 }
   } 
 
 
-    /* has-avatars has-dates has-excerpts wp-block-latest-comments"><li class="wp-block-latest-comments__comment"><img alt="" src="http://2.gravatar.com/avatar/bcb0ed2025dcd565e27e6b971940cc68?s=48&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/bcb0ed2025dcd565e27e6b971940cc68?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo wp-block-latest-comments__comment-avatar" height="48" width="48" loading="lazy"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">Migle</span> on <a class="wp-block-latest-comments__comment-link" href="http://localhost/wordpress/secrets-how-to-be-good-investor/#comment-4">Secrets How To Be Good Investor</a><time datetime="2022-05-01T17:25:41+00:00" class="wp-block-latest-comments__comment-date">May 1, 2022</time></footer><div class="wp-block-latest-comments__comment-excerpt"><p>Good text!</p>
-</div></article></li><li class="wp-block-latest-comments__comment"><img alt="" src="http://0.gravatar.com/avatar/9a7af3b18213e862b322a8f1c311fe0d?s=48&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/9a7af3b18213e862b322a8f1c311fe0d?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo wp-block-latest-comments__comment-avatar" height="48" width="48" loading="lazy"><article><footer class="wp-block-latest-comments__comment-meta"><a class="wp-block-latest-comments__comment-author" href="http://localhost/wordpress/author/admin/">admin</a> on <a class="wp-block-latest-comments__comment-link" href="http://localhost/wordpress/top-10-books-you-need-to-read-before-invest/#comment-2">Top 10 Books You Need To Read Before Invest</a><time datetime="2022-05-01T15:30:44+00:00" class="wp-block-latest-comments__comment-date">May 1, 2022</time></footer><div class="wp-block-latest-comments__comment-excerpt"><p>jyt</p>
-</div></article></li></ol> */
 
 

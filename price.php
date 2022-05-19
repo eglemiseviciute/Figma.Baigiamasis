@@ -9,7 +9,7 @@ get_header();
 <div class="container">
     <div class="col pt-5 pb-5  ms-5">
         <h1 class="business1">Strategic Planing</h1>
-        <p class="col-8 pagr1 pt-5"> We are digital business consulting agency that helps companies increase 
+        <p class="col-10 pagr1 pt-5"> We are digital business consulting agency that helps companies increase 
             better incomes and help with branding for faster business growing.
             We are digital business consulting agency that helps companies increase 
             better incomes and help with branding for faster business growing.</p>
@@ -68,7 +68,7 @@ get_header();
         <h6 class="about pt-5"> PRICE PLANS</h6>
         <h4 class="about1 pt-1 pb-4">Choose the Best Plan for You</h4>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="card m-2">
                     <div class="card-body">
                         <div class="text-center">
@@ -123,7 +123,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="card m-2">
                     <div class="card-body">
                         <div class="text-center">
@@ -174,7 +174,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="card m-2">
                     <div class="card-body">
                         <h5 class="card-title text-center pt-4">Standart Plan</h5>
@@ -231,22 +231,22 @@ get_header();
 
 <div class="logos container d-flex justify-content-center pt-3 pb-3 ">
     <div class="row">
-    <div class="col">
+    <div class="col-2">
             <img class="img-fluid " src="../wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_3.png" alt="logo">
         </div>
-        <div class="col">
+        <div class="col-2">
             <img class="img-fluid " src="../wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_3.png" alt="logo">
         </div>
-        <div class="col">
+        <div class="col-2">
             <img class="img-fluid  " src="../wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_4.png" alt="logo">
         </div>
-        <div class="col">
+        <div class="col-2">
             <img class="img-fluid " src="../wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_5.png" alt="logo">
         </div>
-        <div class="col">
+        <div class="col-2">
             <img class="img-fluid " src="../wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_3.png" alt="logo">
         </div>
-        <div class="col">
+        <div class="col-2">
             <img class="img-fluid " src="../wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_3.png" alt="logo">
         </div>
     </div>
@@ -254,8 +254,9 @@ get_header();
 <div class="top">
             <div class="container">
                 <div class="row">
-                    <div class="col py-5 mt-5 d-flex justify-content-end">
-                        <button  class="btn abutton3" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle-fill fa-2x"></i></button>
+                        <div class="col pt-5 pb-5  d-flex justify-content-end">
+                        <button class="btn abutton31" onclick="history.back()">Go Back</button>
+                        <button  class="btn abutton31" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle-fill fa-2x"></i></button>
                     </div>
                 </div>
             </div>

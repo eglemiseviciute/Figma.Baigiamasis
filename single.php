@@ -6,12 +6,12 @@ get_header();
     <div class="container">
       
         <h2 class=" newst py-5 display-1">OUR NEWS</h2>
-        
+        <p id="demo" class="laikas"></p>
         </div>
     </div>
     <!-- sidebar -->
     
-    <div class="container">
+    <div class="container si">
         <div class="row ">
         
             <div class="col-9 ">
@@ -37,12 +37,13 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
                 <!-- cia komentarai tagai ir pan apacioj teksto bus  -->
                 <div class="top2">
                         <div class="col pt-5 pb-5  d-flex justify-content-end">
-                            <button  class="btn abutton3" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle-fill fa-2x"></i></button>
+                        <button class="btn abutton31" onclick="history.back()">Go Back</button>
+                            <button  class="btn abutton31" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle-fill fa-2x"></i></button>
                         </div>
                     </div>
             </div>
 
-
+          
                 <!-- sidebaras -->
                 <div class="col-3">
             <div class="side d-flex flex-column  align-items-center align-items-start px-3 pt-2 text-dark min-vh-100">

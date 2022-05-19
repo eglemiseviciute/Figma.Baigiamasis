@@ -32,7 +32,8 @@
                 );
                 ?>
             </div>
-            <div class="container">
+            <hr class="mt-5">
+            <div class="container com">
 
                 <?php
 

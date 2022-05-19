@@ -17,7 +17,7 @@ get_header();
         <div class="priceplans1 pt-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6">
                     <p class="about"> ABOUT US</p>
                     <h2 class="about1 pt-3">Keep Your Business Safe & Ensure High
                         Availability</h2>
@@ -29,7 +29,7 @@ get_header();
                     </div>
                 </div>
 
-                <div class="about2 col-lg-6">
+                <div class="about2 col-lg-6 col-md-6">
                     <p>A business consulting agency is involved in the planing,
                         implementation and education businesses. We work directly with
                         business owners on developing a business plan, identifying marketing needs
@@ -45,19 +45,19 @@ get_header();
         <div class="priceplans1">
             <div class="savybes container pt-5 pb-3">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <img class="varnele" src="../wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
                         <p class="varnelet"> Constant Improvement</p>
                     </div>
-                    <div class="col-lg-3 ">
+                    <div class="col-lg-3 col-md-6 col-sm-6 ">
                         <img class="varnele" src="../wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
                         <p class="varnelet"> Commitment to Customers</p>
                     </div>
-                    <div class="col-lg-3 ">
+                    <div class="col-lg-3 col-md-6 col-sm-6 ">
                         <img class="varnele" src="../wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
                         <p class="varnelet"> Best Quality You Can Get</p>
                     </div>
-                    <div class="col-lg-3 ">
+                    <div class="col-lg-3 col-md-6 col-sm-6 ">
                         <img class="varnele" src="../wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
                         <p class="varnelet pb-4"> 30 Days Money Back Warranty</p>
                     </div>
@@ -73,7 +73,7 @@ get_header();
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <img src="../wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-christina-morillo-1181686.jpg" class=" img-fluid p-5" alt="Christina">
                         <div class="text-block px-5 pt-1 text-center">
                             <h6>CEO</h6>
@@ -86,7 +86,7 @@ get_header();
                         <i class="bi bi-twitter px-1 "></i>
                         <i class="bi bi-linkedin px-1 "></i>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <img src="../wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-italo-melo-2379004.jpg" class="img-fluid p-5  " alt="Italo">
                         <div class="text-block1 px-3 pt-1">
                             <!-- mazesnius padaryt nei pirma -->
@@ -99,7 +99,7 @@ get_header();
                         <i class="bi bi-twitter px-1 ms-5"></i>
                         <i class="bi bi-linkedin px-1 "></i>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <img src="../wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-pixabay-532220.jpg" class="img-fluid p-5" alt="John">
                         <div class="text-block2 px-3 pt-1">
                             <h6>Marketing Agent</h6>
@@ -119,7 +119,7 @@ get_header();
             <div class="row">
                 <div class="col">
                     <p class="about pt-5"> SEMINARS</p>
-                    <h2 class="about1 pt-3">Our Last Seminar Memories</h2>
+                    <h2 class=" about1 pt-3">Our Last Seminar Memories</h2>
                     <p class="pt-3">A business consulting agency is involved in the planing,
                         implementation and education businesses. We work directly with
                         business owners on developing a business plan, identifying marketing needs
@@ -138,16 +138,20 @@ get_header();
             </div>
         </div>
         </div>
-
+       
         <div class="top1">
             <div class="container">
                 <div class="row">
-                    <div class="col py-5 mt-5 d-flex justify-content-end">
-                        <button  class="btn abutton31" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle-fill fa-2x"></i></button>
-                    </div>
+                <div class="col py-5 mt-5 d-flex justify-content-end">
+                    <button class="btn abutton31" onclick="history.back()">Go Back</button>
+                    <button  class="btn abutton31" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle-fill fa-2x"></i></button>
+                </div>
+                    
+                </div>
+                 
+                    
                 </div>
             </div>
-        </div>
 
 </main>
 

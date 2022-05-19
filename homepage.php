@@ -102,7 +102,7 @@ get_header();
     <div class="priceplans1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6 ">
                     <p class="about"> ABOUT US</p>
                     <h2 class="about1 pt-3">Keep Your Business Safe & Ensure High
                         Availability</h2>
@@ -114,7 +114,7 @@ get_header();
                     </div>
                 </div>
 
-                <div class="about2 col-lg-6">
+                <div class="about2 col-lg-6 col-md-6">
                     <p>A business consulting agency is involved in the planing,
                         implementation and education businesses. We work directly with
                         business owners on developing a business plan, identifying marketing needs
@@ -130,20 +130,20 @@ get_header();
         <div class="priceplans1">
             <div class="savybes container pt-5 pb-3">
                 <div class="row">
-                    <div class="col-lg-3">
-                        <img class="varnele" src="wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <img class="varnele img-fluid" src="wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
                         <p class="varnelet"> Constant Improvement</p>
                     </div>
-                    <div class="col-lg-3 ">
-                        <img class="varnele" src="wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
+                    <div class="col-lg-3 col-md-6 col-sm-6 ">
+                        <img class="varnele img-fluid" src="wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
                         <p class="varnelet"> Commitment to Customers</p>
                     </div>
-                    <div class="col-lg-3 ">
-                        <img class="varnele" src="wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
+                    <div class="col-lg-3 col-md-6 col-sm-6 ">
+                        <img class="varnele img-fluid" src="wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
                         <p class="varnelet"> Best Quality You Can Get</p>
                     </div>
-                    <div class="col-lg-3 ">
-                        <img class="varnele" src="wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <img class="varnele img-fluid" src="wp-content/themes/Baigiamasis/assets/images/bla/varnele.png" alt="parasas">
                         <p class="varnelet pb-4"> 30 Days Money Back Warranty</p>
                     </div>
                 </div>
@@ -151,14 +151,14 @@ get_header();
         </div>
         <div class="priceplans2">
             <div class="container d-flex justify-content-center">
-                <img class="sedi" src="wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-fauxels-3184306.jpg" alt="team" width="500" height="300">
+                <img class="sedi" src="wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-fauxels-3184306.jpg" alt="team">
             </div>
         </div>
 
         <!-- How it works puslapis -->
         <div class="container pt--3">
             <div class="row">
-                <div class="col-lg-3 pt-4 pb-4">
+                <div class="col-lg-3  pt-4 pb-4">
                     <p class="about3 mt-4">How it works ?</p>
                     <h2 class="about1">We Guarantee
                         a Stable Work
@@ -205,7 +205,7 @@ get_header();
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <img src="wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-christina-morillo-1181686.jpg" class=" img-fluid p-5" alt="Christina">
                         <div class="text-block px-5 pt-1 text-center">
                             <h6>CEO</h6>
@@ -218,7 +218,7 @@ get_header();
                         <i class="bi bi-twitter px-1 "></i>
                         <i class="bi bi-linkedin px-1 "></i>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <img src="wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-italo-melo-2379004.jpg" class="img-fluid p-5  " alt="Italo">
                         <div class="text-block1 px-3 pt-1">
                             <!-- mazesnius padaryt nei pirma -->
@@ -231,7 +231,7 @@ get_header();
                         <i class="bi bi-twitter px-1 ms-5"></i>
                         <i class="bi bi-linkedin px-1 "></i>
                     </div>
-                    <div class="col-lg-4">
+                    <div class=" bo col-lg-4 col-md-6 col-sm-12">
                         <img src="wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-pixabay-532220.jpg" class="img-fluid p-5" alt="John">
                         <div class="text-block2 px-3 pt-1">
                             <h6>Marketing Agent</h6>
@@ -253,7 +253,7 @@ get_header();
                 <h6 class="about pt-5"> PRICE PLANS</h6>
                 <h4 class="about1 pt-1 pb-4">Choose the Best Plan for You</h4>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="card m-2">
                             <div class="card-body">
                                 <div class="text-center">
@@ -310,7 +310,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 ">
+                    <div class="col-lg-4 col-md-4 col-sm-12 ">
                         <div class="card m-2">
                             <div class="card-body">
                                 <div class="text-center">
@@ -366,7 +366,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="card m-2">
                             <div class="card-body">
                                 <h5 class="card-title text-center pt-4">Standart Plan</h5>
@@ -428,29 +428,29 @@ get_header();
         <!-- logos -->
         <div class="logos container d-flex justify-content-center pt-3 pb-3  ">
             <div class="row">
-            <div class="col" >
+            <div class="col-2" >
                     <img class="img-fluid " src="wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_3.png" alt="logo">
                 </div>
-                <div class="col" >
+                <div class="col-2" >
                     <img class="img-fluid " src="wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_3.png" alt="logo">
                 </div>
-                <div class="col ">
+                <div class="col-2 ">
                     <img class="img-fluid  " src="wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_4.png" alt="logo">
                 </div>
-                <div class="col ">
+                <div class="col-2 ">
                     <img class="img-fluid " src="wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_5.png" alt="logo">
                 </div>
-                <div class="col ">
+                <div class="col-2 ">
                     <img class="img-fluid " src="wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_3.png" alt="logo">
                 </div>
-                <div class="col">
+                <div class="col-2">
                     <img class="img-fluid " src="wp-content/themes/Baigiamasis/assets/images/imagines mazesni/Logo_3.png" alt="logo">
                 </div>
             </div>
         </div>
         <!-- video -->
         <div class=" container pt-5 d-flex justify-content-center">
-            <video class="kalbasi" width="600" height="200" controls>
+            <video class="kalbasi" controls>
                 <source src="wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-jack-sparrow-5977260.mp4" type="video/mp4" alt="viedo">
             </video>
         </div>
@@ -488,10 +488,10 @@ get_header();
                 <p class="about"> NEW ARTICLES</p>
                 <!-- pamazint font size ir visur sriftus uzdet -->
                 <!-- galima idet karusele -->
-                <h2 class="blogs-text">Check Our Latest Blog Posts</h2>
+                <h2 class="blogs-text">Check Our Latest Blog Posts And ...</h2>
                 <div class="row">
                     <!-- idet read more ir kad kur nors nuvestu -->
-                    <div class="col-lg-4 pt-3">
+                    <div class="col-lg-4 col-md-4 col-sm-12 pt-3">
                         <img src="wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-fauxels-3184160.jpg" class=" img-fluid " alt="Post">
                         <h5 class="pt-3 card-title">5 Amazing and Easy Tips for Sustainable Business Success</h5>
                         <p class="pt-1 card-text">At vero eas et accusamus et iusto odio dignissimas ducimus qui
@@ -500,7 +500,7 @@ get_header();
                         <img class="" src="wp-content/themes/Baigiamasis/assets/images/bla/Arrow_read_more.png" alt="read more">
                         <a href="#" class="ms-3 ">Read More</a>
                     </div>
-                    <div class="col-lg-4 pt-3">
+                    <div class="col-lg-4 col-md-4 col-sm-12 pt-3">
                         <img src="wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-karolina-grabowska-4968382.jpg" class="img-fluid  " alt="post">
 
                         <h5 class="pt-3 card-title">Assessing the Maturity of Your Data Management in Industry</h5>
@@ -508,7 +508,7 @@ get_header();
                             blanditis praesentium..</p>
                         <img class="" src="wp-content/themes/Baigiamasis/assets/images/bla/Arrow_read_more.png" alt="read more">
                     </div>
-                    <div class="col-lg-4 pt-3">
+                    <div class="col-lg-4 col-md-4 col-sm-12 pt-3">
                         <img src="wp-content/themes/Baigiamasis/assets/images/nuotraukos/pexels-pixabay-265087.jpg" class="img-fluid " alt="Post">
 
                         <h5 class="pt-3 card-title">How to Build Your Sustainable Business Strategy</h5>
@@ -519,11 +519,21 @@ get_header();
                     </div>
                 </div>
                 <div class="col d-flex justify-content-end pt-5">
-                    <button type="button" class="btn abutton1 py-2 px-5">View all Posts</button>
+                    <button type="button" class="btn abutton1 py-2 px-5" >View all Posts</button>
                 </div>
             </div>
         </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h2 class=" stat1 text-center">A Little Bit Statistics Where People Invest The Most In 2022</h2> 
+                </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                <canvas id="myChart" class="stat d-flex justify-content-center"style="width:100%;max-width:700px"></canvas>
+                </div>
+            </div>
+        </div>
 
         <!-- contaktai -->
         <div class="contactai">
@@ -532,7 +542,7 @@ get_header();
                 <h2 class="blogs-text pt-2">Any Questions? Contact us Freely and<br>
                     We'll Get Back to You Shortly</h2>
                 <div class="row">
-                    <div class="col-lg-4 pt-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
                         <!-- reikia shadow -->
                         <div class="card m-2">
                             <img class="card-img-top ps-3 pt-4" src="wp-content/themes/Baigiamasis/assets/images/imagines mazesni/zemelapis.png" alt="Card image cap" style="width: 4rem;">
@@ -544,7 +554,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 pt-5 ">
+                    <div class="col-lg-4 col-md-6 col-sm-12 pt-5 ">
                         <div class="card m-2">
                             <img class="card-img-top ps-3 pt-4" src="wp-content/themes/Baigiamasis/assets/images/imagines mazesni/ragelis.png" alt="Card image cap" style="width: 3.9rem;">
                             <div class="card-body">
@@ -555,7 +565,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 pt-5">
+                    <div class="bo col-lg-4 col-md-6 col-sm-12 pt-5">
                         <div class="card m-2">
                             <img class="card-img-top ps-3 pt-4" src="wp-content/themes/Baigiamasis/assets/images/imagines mazesni/lektuvelis.png" alt="Card image cap" style="width: 4rem;">
                             <div class="card-body">
